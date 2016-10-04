@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PolymorphismExample", "PolymorphismExample.vbproj", "{3703A8EF-87DD-490D-A9D2-744EBF46F18E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3703A8EF-87DD-490D-A9D2-744EBF46F18E}.Debug.ActiveCfg = Debug|.NET
+		{3703A8EF-87DD-490D-A9D2-744EBF46F18E}.Debug.Build.0 = Debug|.NET
+		{3703A8EF-87DD-490D-A9D2-744EBF46F18E}.Release.ActiveCfg = Release|.NET
+		{3703A8EF-87DD-490D-A9D2-744EBF46F18E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

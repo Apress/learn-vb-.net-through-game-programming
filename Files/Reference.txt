@@ -1,0 +1,26 @@
+Art				graphics/sounds used througout the book
+BMPStitch   			Appendix
+CellularAutomata		Ch. 5
+CellularAutomataWithSave	Chapter 9
+Common				modules/classes used by multiple projects
+DicePanel			Ch. 2
+DicePanelNew			bonus, used by Yhatzee game
+DirectXDemo			Ch. 8 
+FirstApplication		Appendix A
+GarbageDemoOne			Chapter 9
+GarbageDemoTwo			Chapter 9
+GuessTheDieRoll			Ch. 1
+GuessTheDieRoll2		Ch. 2
+GuessTheDieRoll3		Ch. 2
+InterfaceExample		Ch. 6
+NetReversi			Ch. 7
+NineTiles			Ch. 3
+PCOpponent			Ch. 6
+PolymorphismExample		Ch. 5	
+ShapeTileGames			Ch. 4
+SpaceRocks			Ch. 7
+ThreadParametersOne		Chapter 9
+ThreadParametersThree		Chapter 9
+ThreadParametersTwo (broken)	Chapter 9
+Yhatzee				bonus game.
+

@@ -1,0 +1,174 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{ED1295D4-FDA9-4C0B-A756-77C5214A3EAE}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "NineTiles"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "NineTiles"
+                StartupObject = "NineTiles.fMain"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "dicepanel"
+                    AssemblyName = "DicePanel"
+                    HintPath = "..\dicepanel\bin\dicepanel.dll"
+                    Private = "True"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fMain.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fMain.resx"
+                    DependentUpon = "fMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NumberPanel.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WavLibrary.vb"
+                    Link = "..\Common\WavLibrary.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "res\applause.wav"
+                    Link = "..\Art\Wav\applause.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\die1.wav"
+                    Link = "..\Art\Wav\die1.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\die2.wav"
+                    Link = "..\Art\Wav\die2.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\dischord.wav"
+                    Link = "..\Art\Wav\dischord.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\laughs.wav"
+                    Link = "..\Art\Wav\laughs.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\numbertiles.bmp"
+                    Link = "..\Art\numbertiles\numbertiles.bmp"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\squeak1.wav"
+                    Link = "..\Art\Wav\squeak1.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\squeak2.wav"
+                    Link = "..\Art\Wav\squeak2.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "res\thud.wav"
+                    Link = "..\Art\Wav\thud.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

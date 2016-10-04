@@ -1,0 +1,213 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.2292"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{9FBE74F0-8027-4CFF-BFD7-DA0FDA4AD36A}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ShapeTileGames"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "ShapeTileGames"
+                StartupObject = "ShapeTileGames.fMain"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DeductileReasoning.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fConcentration.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fConcentration.resx"
+                    DependentUpon = "fConcentration.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "fDeductile.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fDeductile.resx"
+                    DependentUpon = "fDeductile.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "fLoseYourMind.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fLoseYourMind.resx"
+                    DependentUpon = "fLoseYourMind.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "fMain.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "fMain.resx"
+                    DependentUpon = "fMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GameTimer.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GameTimer.resx"
+                    DependentUpon = "GameTimer.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HighScoreRecorder.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "LoseYourMind.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ShapeTile2.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ShapeTile2.resx"
+                    DependentUpon = "ShapeTile2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ShapeTile3.vb"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ShapeTile3.resx"
+                    DependentUpon = "ShapeTile3.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "WavLibrary.vb"
+                    Link = "..\Common\WavLibrary.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "wav\8ping.wav"
+                    Link = "..\Art\Wav\8ping.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "wav\die1.wav"
+                    Link = "..\Art\Wav\die1.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "wav\ouch.wav"
+                    Link = "..\Art\Wav\ouch.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "wav\ovation.wav"
+                    Link = "..\Art\Wav\ovation.wav"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

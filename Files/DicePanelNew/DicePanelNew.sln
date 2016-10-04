@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DicePanelNew", "DicePanelNew.vbproj", "{3DDC0E97-AFDA-4DDA-8EE8-760A2710F14C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3DDC0E97-AFDA-4DDA-8EE8-760A2710F14C}.Debug.ActiveCfg = Debug|.NET
+		{3DDC0E97-AFDA-4DDA-8EE8-760A2710F14C}.Debug.Build.0 = Debug|.NET
+		{3DDC0E97-AFDA-4DDA-8EE8-760A2710F14C}.Release.ActiveCfg = Release|.NET
+		{3DDC0E97-AFDA-4DDA-8EE8-760A2710F14C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
